@@ -7,7 +7,7 @@ http.createServer((req, res) => {
     } else if (req.url === '/profesores') {
         res.write('Hola profesores');
     } else {
-        res.write('Hola Mundo');
+        res.write('Hola');
     }
     res.end();
 }).listen(8080);
